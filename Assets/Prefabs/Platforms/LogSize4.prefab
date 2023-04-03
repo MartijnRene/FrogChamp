@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6452856025669524086}
   - component: {fileID: 5564977803225382}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Log2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,8 @@ GameObject:
   m_Component:
   - component: {fileID: 150527003455412088}
   - component: {fileID: 5749116454989187075}
-  m_Layer: 0
+  - component: {fileID: 3656496410800977598}
+  m_Layer: 7
   m_Name: LogSize4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,6 +147,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &3656496410800977598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2906627396741234790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8bf05f3f57cdbe42bec0af90ec0f1c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: {x: 1, y: 0}
+  speed: 1
+  size: 4
 --- !u!1 &5178087796447740992
 GameObject:
   m_ObjectHideFlags: 0
@@ -156,7 +172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8738006686072652680}
   - component: {fileID: 1975754566398517345}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Log1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -240,7 +256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7718327401298095949}
   - component: {fileID: 2118298519618341367}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Log3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2253675439608418068}
   - component: {fileID: 7079506978636372045}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Log2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

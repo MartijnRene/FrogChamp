@@ -27,7 +27,7 @@ public class MoveableScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (direction.x > 0 && (transform.position.x - size) > rightEdge.x)
+        if (direction.x > 0 && transform.position.x - 1 > rightEdge.x)
         {
             position = transform.position;
             position.x = leftEdge.x - size;
